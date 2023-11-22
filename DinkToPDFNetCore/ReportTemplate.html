@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Employee Information</title>
+   <style type="text/css">
+
+      .tblEmployeeHeader {         
+         width: 100%;
+         border-collapse: collapse;
+         margin-bottom: 30px;
+         font-family: "Arial Narrow", Times, serif;
+         font-size: 9px;
+      }
+
+      .tblEmployeeDependentsDetails {
+         width: 100%;
+         border-collapse: collapse;
+         margin-top: 10px;
+         font-family: "Arial Narrow", Times, serif;
+         font-size: 9px;
+         margin-top: 30px;
+         border: 1px solid black;
+      }
+
+         .tblEmployeeDependentsDetails td {
+            border: 1px solid black;
+         }
+
+         .tblEmployeeDependentsDetails th {
+            border: 1px solid black;
+         }
+
+      .divEmployeeHeader {
+         font-size: 25px;
+         font-weight: bold;
+         text-align: center !important;
+      }
+
+      .tdEmployeeLeft {
+         width: 20%;
+      }
+   </style>
+</head>
+<body>
+   <div id="divEmployeeHeader">
+      <table class='tblEmployeeHeader'>
+         <tr>
+            <td colspan=2>
+               <div class='divEmployeeHeader'>Employee Information</div>
+            </td>
+         </tr>
+         <tr>
+            <td colspan=2>
+               <div>&nbsp;</div>
+            </td>
+         </tr>
+         <tr>
+            <td class="tdEmployeeLeft"><strong>Employee ID:</strong></td>
+            <td>[EmpID]</td>
+         </tr>
+         <tr>
+            <td class="tdEmployeeLeft"><strong>Employee Name:</strong></td>
+            <td>[EmpName]</td>
+         </tr>
+         <tr>
+            <td class="tdEmployeeLeft"><strong>Employee Status:</strong></td>
+            <td>[EmpStatus]</td>
+         </tr>
+      </table>
+   </div>  
+   <hr/>
+   <table class='tblEmployeeDependentsDetails'>
+      <tr>
+         <th>ID</th>
+         <th>Name</th>
+         <th>Age</th>
+      </tr>
+      <tr>
+         <td>[DepID1]</td>
+         <td>[DepName1]</td>
+         <td>[DepAge1]</td>
+      </tr>
+      <tr>
+         <td>[DepID2]</td>
+         <td>[DepName2]</td>
+         <td>[DepAge2]</td>
+      </tr>
+   </table>
+</body>
+</html>
